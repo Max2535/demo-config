@@ -8,7 +8,7 @@ spring:
     name: demo-application
   
   datasource:
-    url: jdbc:mysql://staging-db-server:3306/staging_db
+    url: jdbc:mysql://localhost:3306/staging_db
     username: staging_user
     password: ${STAGING_DB_PASSWORD}
     

@@ -8,7 +8,7 @@ spring:
     name: demo-application
   
   datasource:
-    url: jdbc:mysql://prod-db-server:3306/prod_db
+    url: jdbc:mysql://localhost:3306/prod_db
     username: prod_user
     password: ${PROD_DB_PASSWORD}
     
