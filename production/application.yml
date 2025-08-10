@@ -1,0 +1,18 @@
+# Production Configuration
+
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: demo-application
+  
+  datasource:
+    url: jdbc:mysql://prod-db-server:3306/prod_db
+    username: prod_user
+    password: ${PROD_DB_PASSWORD}
+    
+logging:
+  level:
+    root: INFO
+    org.springframework: WARN
